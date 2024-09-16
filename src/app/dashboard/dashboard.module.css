@@ -1,0 +1,90 @@
+.dashboardWrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #00000085;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+
+.mainContent {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffe9e9;
+}
+
+.formContainer,
+.appointmentContainer,
+.billingContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: rgb(255, 237, 237);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer input {
+  width: 370px;
+  margin-bottom: 20px;
+  padding: 10px ;
+}
+
+.patientListContainer {
+  margin-top: 20px;
+}
+
+.btnFlex {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.addPatient {
+  margin-top: 10px;
+}
+
+.addBilling button {
+  padding: 10px;
+  border-radius: 7px;
+  border-style: none;
+  background-color: #ffd000;
+}
+
+.mainContent {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+.editBTN {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  border-radius: 7px;
+  border-style: none;
+}
+
+.deleteBTN {
+  border-radius: 7px;
+  border-style: none;
+  padding: 20px;
+  color: white;
+  background-color: green;
+}

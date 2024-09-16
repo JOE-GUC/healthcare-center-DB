@@ -1,0 +1,140 @@
+.pageContainer {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #ede8e8;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0ecec;
+  padding: 60px 0;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroTitle {
+  font-size: 2.5em;
+  color: #008080;
+}
+
+.heroText {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.ctaButton {
+  background-color: #008080;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #005f5f;
+}
+
+.heroImageWrapper {
+  flex: 1;
+}
+
+.heroImage {
+  width: 400px;
+  height: auto;
+}
+
+/* Services Section */
+.servicesSection {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.sectionTitle {
+  font-size: 2em;
+  color: #008080;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gridItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gridItem:hover {
+  transform: scale(1.05);
+}
+
+.serviceImage {
+  width: 105%;
+  height: 270px;
+}
+
+.imageCaption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* About Section */
+.aboutSection {
+  background-color: #fce6e6;
+  padding: 50px 20px;
+}
+
+.aboutContent {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.sectionTitlex {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: #008080;
+}
+
+
+/* Map Section */
+.mapSection {
+  text-align: center;
+  padding: 70px;
+  margin: 50px 0;
+}
+
+.mapText {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.mapContainer iframe {
+  border: none;
+  border-radius: 8px;
+  max-width: 100%;
+}
