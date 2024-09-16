@@ -38,6 +38,7 @@ export default function Home() {
                     </p>
                 </div>
             </section>
+            
             <section className={styles.servicesSection}>
                 <h2 className={styles.sectionTitle}>Our Services</h2>
                 <div className={styles.imageGrid}>
@@ -63,7 +64,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
 
             <section className={styles.mapSection}>
                 <h2 className={styles.sectionTitle}>Find Us</h2>
