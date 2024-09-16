@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './hero.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -43,23 +44,23 @@ export default function Home() {
                 <h2 className={styles.sectionTitle}>Our Services</h2>
                 <div className={styles.imageGrid}>
                     <div className={styles.gridItem}>
-                        <img src="/images (1).jpeg/" alt="General Checkups" className={styles.serviceImage} />
+                        <Image src="/images (1).jpeg" alt="General Checkups" className={styles.serviceImage} width={500} height={300} />
                         <p className={styles.imageCaption}>General Checkups</p>
                     </div>
                     <div className={styles.gridItem}>
-                        <img src="/images (1).jpeg/" alt="General Checkups" className={styles.serviceImage} />
+                        <Image src="/images (1).jpeg" alt="General Checkups" className={styles.serviceImage} width={500} height={300} />
                         <p className={styles.imageCaption}>General Checkups</p>
                     </div>
                     <div className={styles.gridItem}>
-                        <img src="/images (2).jpeg/" alt="Specialist Consultation" className={styles.serviceImage} />
+                        <Image src="/images (2).jpeg" alt="Specialist Consultation" className={styles.serviceImage} width={500} height={300} />
                         <p className={styles.imageCaption}>Specialist Consultation</p>
                     </div>
                     <div className={styles.gridItem}>
-                        <img src="/images (5).jpeg/" alt="Emergency Care" className={styles.serviceImage} />
+                        <Image src="/images (5).jpeg" alt="Emergency Care" className={styles.serviceImage} width={500} height={300} />
                         <p className={styles.imageCaption}>Emergency Care</p>
                     </div>
                     <div className={styles.gridItem}>
-                        <img src="/download.jpeg/" alt="Laboratory Services" className={styles.serviceImage} />
+                        <Image src="/download.jpeg" alt="Laboratory Services" className={styles.serviceImage} width={500} height={300} />
                         <p className={styles.imageCaption}>Laboratory Services</p>
                     </div>
                 </div>
