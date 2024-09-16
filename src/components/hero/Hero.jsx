@@ -6,7 +6,6 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <div className={styles.pageContainer}>
-            {/* Hero Section */}
             <section className={styles.heroSection}>
                 <div className={styles.heroContent}>
                     <h1 className={styles.heroTitle}>
@@ -21,7 +20,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* About Section */}
             <section className={styles.aboutSection}>
                 <h2 className={styles.sectionTitlex}>About Us</h2>
                 <div className={styles.aboutContent}>
@@ -40,7 +38,6 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-            {/* Services Image Section */}
             <section className={styles.servicesSection}>
                 <h2 className={styles.sectionTitle}>Our Services</h2>
                 <div className={styles.imageGrid}>
@@ -68,7 +65,6 @@ export default function Home() {
             </section>
 
 
-            {/* Location Map Section */}
             <section className={styles.mapSection}>
                 <h2 className={styles.sectionTitle}>Find Us</h2>
                 <p className={styles.mapText}>We are conveniently located near the Douala Airport, Cameroon. Visit us today or contact us for more information!</p>
