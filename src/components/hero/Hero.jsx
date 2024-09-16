@@ -26,7 +26,7 @@ export default function Home() {
                 <h2 className={styles.sectionTitlex}>About Us</h2>
                 <div className={styles.aboutContent}>
                     <p>
-                        At <strong>Our Healthcare Center</strong>, we are committed to providing exceptional care to all our patients.
+                        At <strong>Our Healthcare Center</strong> we are committed to providing exceptional care to all our patients.
                         Our highly skilled team of healthcare professionals delivers personalized medical services tailored to meet your specific needs.
                         With cutting-edge facilities and a compassionate approach, we aim to ensure a healthier, happier community.
                     </p>
@@ -35,7 +35,7 @@ export default function Home() {
                         preventative care. We pride ourselves on our commitment to excellence in every aspect of our service delivery.
                     </p>
                     <p>
-                        Whether you're seeking routine checkups, emergency care, or specialized treatments, you can trust that
+                        Whether you are seeking routine checkups, emergency care, or specialized treatments, you can trust that
                         you are in safe hands at Our Healthcare Center.
                     </p>
                 </div>
