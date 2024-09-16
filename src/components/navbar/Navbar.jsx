@@ -21,9 +21,6 @@ export default function Navbar() {
         <li>
           <Link href="/dashboard">Dashboard</Link>
         </li>
-        {/* <li>
-          <Link href="/appointments"></Link>
-        </li> */}
       </ul>
     </nav>
   );

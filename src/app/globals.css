@@ -25,11 +25,9 @@ h1 {
 }
 
 h2 {
-    /* text-align: center; */
     font-weight: 700;
     font-size: 25px;
     color: #000000;
-    /* font-style: italic; */
 
 }
 
@@ -42,7 +40,6 @@ h2 {
 
 input[type="text"], input[type="number"] {
     padding: 15px;
-    /* border-style: none; */
     border: 1px solid #12c19b;
     border-radius: 5px;
 }

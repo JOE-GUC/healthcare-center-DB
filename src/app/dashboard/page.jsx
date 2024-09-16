@@ -221,8 +221,7 @@ export default function Dashboard() {
               {patients.map((patient, index) => (
                 <li key={index}>
                   <span>
-                    <b>Name:</b> {patient.name} <br /> <b>Age:</b> {patient.age}{" "}
-                    <br /> <b>Condition:</b> {patient.condition}
+                    <b>Name:</b> {patient.name} <br /> <b>Age:</b> {patient.age}{" "} <br /> <b>Condition:</b> {patient.condition}
                   </span>
                   <div className={styles.btnFlex}>
                     <button onClick={() => editPatient(index)} className={styles.editBTN}>Edit</button>
@@ -278,7 +277,7 @@ export default function Dashboard() {
                     <b>Time:</b> {appointment.time}
                   </span>
                   <div className={styles.btnFlex}>
-                    <button onClick={() => editAppointment(index)} className={styles.editBTN }>Edit</button>
+                    <button onClick={() => editAppointment(index)} className={styles.editBTN}>Edit</button>
                     <button onClick={() => deleteAppointment(index)} className={styles.deleteBTN}>Delete</button>
                   </div>
                 </li>
